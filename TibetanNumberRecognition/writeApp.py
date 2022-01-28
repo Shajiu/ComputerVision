@@ -155,9 +155,9 @@ class MyMnistWindow(QWidget):
         # 预测
         output = model(img)
         predict = output.argmax(dim=1)
-        # return str(predict.item())
+        return str(predict.item())
 
-        return str("ཨ")
+       
 
 
 if __name__ == "__main__":
