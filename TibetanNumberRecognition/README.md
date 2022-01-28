@@ -9,7 +9,15 @@
 - Transformers==2.5.1;
 - PyQt5==5.15.4
 #### 项目简介
-运行uploadApp.py可得到如下结果。
-![图4 上传图像界面](https://s3.bmp.ovh/imgs/2022/01/a7322898495917b4.jpg)
-![图5 上传图像界面识别](https://s3.bmp.ovh/imgs/2022/01/70f6dbffca4a13c4.jpg)
+- convert-images-to-mnist-format.py  # 将png格式的数据转换为二进制个数据函数
+- dataSet.py  # 数据加载模块
+- discern.py # 检测识别模块
+- image_jpg_png.py # 将jpg文件转换为png文件
+- inference.py # 推理模块
+- lenet_5.py # 搭建LeNet-5神经网络结构，并定义前向传播的过程
+- main.py   # 模型训练的主函数入口
+- train.py  # 定义训练过程
+- uploadApp.py # 上传图像检测识别界面
+- writeApp.py  # 手写识别检测界面
+运行writeApp.py可得到如下结果。
 ![图6 手写文字界面](https://s3.bmp.ovh/imgs/2022/01/a08e0e44c398e06e.jpg)
