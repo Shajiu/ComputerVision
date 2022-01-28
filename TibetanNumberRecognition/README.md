@@ -19,5 +19,8 @@
 - train.py  # 定义训练过程
 - uploadApp.py # 上传图像检测识别界面
 - writeApp.py  # 手写识别检测界面
+#### 使用说明
+- [请可以按照微信公众号上的文章进行操作](https://mp.weixin.qq.com/s/b2fxFJSHG7_O-ZLy--WH_g)
+- [请可以按照博客上的文章进行操作](https://shajiu.github.io/2022/01/28/cang-yu-shou-xie-zi-mu-yu-pyqt-de-peng-zhuang-ji-yu-pytorch-kuang-jia-lenet-5-wang-luo-de-tu-xing-hua-cang-wen-shou-xie-zi-mu-shi-bie-xi-tong-so-easy/)
 运行writeApp.py可得到如下结果。
 ![图6 手写文字界面](https://s3.bmp.ovh/imgs/2022/01/a08e0e44c398e06e.jpg)
