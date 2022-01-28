@@ -100,8 +100,8 @@ class window(QtWidgets.QMainWindow, Ui_Form):
         # 防止不上传数字照片而直接点击识别
         if self.img == None:
             return self.label_2.setText('请上传照片！')
-        #self.label_2.setText(str(discern(self.img)))
-        self.label_2.setText("ཆ")
+        self.label_2.setText(str(discern(self.img)))
+      
 
 
 if __name__ == "__main__":
